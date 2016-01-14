@@ -1,7 +1,16 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# From http://71.6.135.131.ipaddress.com/ Get info
-#encoding=utf-8
+
+# This file is part of FiTy.
+# Copyright 2016 - 
+#
+
+'''
+这是Fity程序一部分，主要是通过该域名网站 http://71.6.135.131.ipaddress.com/，
+
+从ip数据 爬取相应信息
+
+'''
 
 import urllib2
 import cookielib
@@ -225,7 +234,7 @@ def mymain(ip):
 
 if __name__=='__main__':
   
-  
+  '''
   iplines = readfile2line('mylog_again.txt')
   count=0
   add = 0
@@ -248,9 +257,9 @@ if __name__=='__main__':
           time.sleep(count)
         
   print 'All line ok!!!'
-  
+  '''
   #http://114.111.135.111.ipaddress.com
   
-  #mymain('114.111.135.111')
+  mymain('114.111.135.111')
 
 
